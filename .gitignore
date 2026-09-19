@@ -1,0 +1,17 @@
+# Compiled outputs
+hello
+hello.exe
+hello.o
+hello.obj
+hello.ali
+hello.hi
+hello.js
+hello.c
+hello.pdb
+*.beam
+*.class
+*.dyn_hi
+*.dyn_o
+nimcache/
+.stack-work/
+_build/

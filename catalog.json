@@ -1,0 +1,20 @@
+[
+  { "language": "Zig", "family": "systems", "path": "systems/zig/hello.zig", "command": "zig run hello.zig", "expected": "Hello, polyglot world!" },
+  { "language": "Nim", "family": "systems", "path": "systems/nim/hello.nim", "command": "nim r hello.nim", "expected": "Hello, polyglot world!" },
+  { "language": "Ada", "family": "systems", "path": "systems/ada/hello.adb", "command": "gnatmake hello.adb && ./hello", "expected": "Hello, polyglot world!" },
+  { "language": "Fortran", "family": "scientific", "path": "scientific/fortran/hello.f90", "command": "gfortran hello.f90 -o hello && ./hello", "expected": "Hello, polyglot world!" },
+  { "language": "COBOL", "family": "historical", "path": "historical/cobol/hello.cob", "command": "cobc -x hello.cob && ./hello", "expected": "Hello, polyglot world!" },
+  { "language": "Pascal", "family": "historical", "path": "historical/pascal/hello.pas", "command": "fpc hello.pas && ./hello", "expected": "Hello, polyglot world!" },
+  { "language": "Haskell", "family": "functional", "path": "functional/haskell/Hello.hs", "command": "runghc Hello.hs", "expected": "Hello, polyglot world!" },
+  { "language": "OCaml", "family": "functional", "path": "functional/ocaml/hello.ml", "command": "ocaml hello.ml", "expected": "Hello, polyglot world!" },
+  { "language": "Clojure", "family": "functional", "path": "functional/clojure/hello.clj", "command": "clojure -M hello.clj", "expected": "Hello, polyglot world!" },
+  { "language": "Racket", "family": "functional", "path": "functional/racket/hello.rkt", "command": "racket hello.rkt", "expected": "Hello, polyglot world!" },
+  { "language": "Elixir", "family": "concurrent", "path": "concurrent/elixir/hello.exs", "command": "elixir hello.exs", "expected": "Hello, polyglot world!" },
+  { "language": "Prolog", "family": "logic", "path": "logic/prolog/hello.pl", "command": "swipl -q -s hello.pl", "expected": "Hello, polyglot world!" },
+  { "language": "Raku", "family": "scripting", "path": "scripting/raku/hello.raku", "command": "raku hello.raku", "expected": "Hello, polyglot world!" },
+  { "language": "Lua", "family": "scripting", "path": "scripting/lua/hello.lua", "command": "lua hello.lua", "expected": "Hello, polyglot world!" },
+  { "language": "Forth", "family": "stack-based", "path": "stack-based/forth/hello.fs", "command": "gforth hello.fs", "expected": "Hello, polyglot world!" },
+  { "language": "Brainfuck", "family": "esoteric", "path": "esoteric/brainfuck/hello.bf", "command": "bf hello.bf", "expected": "Hello, polyglot world!" },
+  { "language": "Befunge-93", "family": "esoteric", "path": "esoteric/befunge/hello.bf93", "command": "befunge hello.bf93", "expected": "Hello, polyglot world!" },
+  { "language": "LOLCODE", "family": "esoteric", "path": "esoteric/lolcode/hello.lol", "command": "lci hello.lol", "expected": "Hello, polyglot world!" }
+]
