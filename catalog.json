@@ -16,5 +16,7 @@
   { "language": "Forth", "family": "stack-based", "path": "stack-based/forth/hello.fs", "command": "gforth hello.fs", "expected": "Hello, polyglot world!" },
   { "language": "Brainfuck", "family": "esoteric", "path": "esoteric/brainfuck/hello.bf", "command": "bf hello.bf", "expected": "Hello, polyglot world!" },
   { "language": "Befunge-93", "family": "esoteric", "path": "esoteric/befunge/hello.bf93", "command": "befunge hello.bf93", "expected": "Hello, polyglot world!" },
-  { "language": "LOLCODE", "family": "esoteric", "path": "esoteric/lolcode/hello.lol", "command": "lci hello.lol", "expected": "Hello, polyglot world!" }
+  { "language": "LOLCODE", "family": "esoteric", "path": "esoteric/lolcode/hello.lol", "command": "lci hello.lol", "expected": "Hello, polyglot world!" },
+  { "language": "ArnoldC", "family": "esoteric", "path": "esoteric/arnoldc/hello.arnoldc", "command": "arnoldc hello.arnoldc", "expected": "Hello, polyglot world!" },
+  { "language": "Rockstar", "family": "esoteric", "path": "esoteric/rockstar/hello.rock", "command": "rockstar hello.rock", "expected": "Hello, polyglot world!" }
 ]

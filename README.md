@@ -5,7 +5,7 @@
 **One tiny message. Many languages. Different ways of thinking.**
 
 [![Integrity](https://github.com/neckmnull/polyglot-lab/actions/workflows/integrity.yml/badge.svg)](https://github.com/neckmnull/polyglot-lab/actions/workflows/integrity.yml)
-![Languages](https://img.shields.io/badge/languages-18-00E5FF?style=flat-square)
+![Languages](https://img.shields.io/badge/languages-20-00E5FF?style=flat-square)
 ![Purpose](https://img.shields.io/badge/purpose-language%20exploration-7C3AED?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/license-MIT-A9B7C6?style=flat-square)](./LICENSE)
 
@@ -46,6 +46,8 @@ a reproducible command based on the language's commonly used implementation.
 | Esoteric | Brainfuck | Computation with eight commands | [`hello.bf`](./esoteric/brainfuck/hello.bf) | `bf hello.bf` |
 | Esoteric | Befunge-93 | Two-dimensional instruction flow | [`hello.bf93`](./esoteric/befunge/hello.bf93) | `befunge hello.bf93` |
 | Esoteric | LOLCODE | Humor as syntax, still with a formal grammar | [`hello.lol`](./esoteric/lolcode/hello.lol) | `lci hello.lol` |
+| Esoteric | ArnoldC | Action-movie catchphrases as programming syntax | [`hello.arnoldc`](./esoteric/arnoldc/hello.arnoldc) | `arnoldc hello.arnoldc` |
+| Esoteric | Rockstar | Natural-language keywords inspired by rock lyrics | [`hello.rock`](./esoteric/rockstar/hello.rock) | `rockstar hello.rock` |
 
 > Commands assume the corresponding compiler or interpreter is installed and that the
 > terminal is opened in the source file's directory.
